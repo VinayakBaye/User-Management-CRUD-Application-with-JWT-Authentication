@@ -510,11 +510,3 @@ Frontend:
 - JWT token storage
 
 
-SECURITY NOTE
--------------
-
-The client ID and client secret stored in a Vite .env file are exposed to the browser after the application is built.
-
-Do NOT store real production secrets in VITE_* environment variables.
-
-For production, authentication should be implemented using a proper server-side authentication flow and secrets should remain on the server.
